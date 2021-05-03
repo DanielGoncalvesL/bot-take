@@ -1,0 +1,17 @@
+{
+    "main": "index.js",
+    "scripts": {
+        "test": "echo",
+        "build": "babel index.js -d dist",
+        "start": "npm run build && node dist/index.js"
+    },
+    "dependencies": {
+        "@babel/cli": "^7.13.16",
+        "@babel/core": "^7.14.0",
+        "@babel/preset-env": "^7.14.0",
+        "axios": "^0.21.1",
+        "blip-sdk": "^10.0.0",
+        "lime-transport-websocket": "^2.0.3"
+    },
+    "devDependencies": {}
+}
