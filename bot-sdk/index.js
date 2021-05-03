@@ -17,7 +17,7 @@ let client = new BlipSdk.ClientBuilder()
     .build();
 
 const api = axios.create({
-    baseURL: " http://2c0eaa4682a8.ngrok.io/repos",
+    baseURL: " http://localhost:3000/repos",
 });
 
 // Connect with server asynchronously
